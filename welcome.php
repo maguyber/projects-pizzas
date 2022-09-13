@@ -16,6 +16,26 @@
 </head>
 <body>
 <?php
+foreach ($data as $row)
+{
+
+}
+<tr>
+<td>
+<?php
+echo $row["id_product"]
+?>
+</td>
+<td>
+<?php
+</td>
+echo $row["product name"]
+?>
+</td>
+<td>
+<?php
+</td>
+echo $row["product galery"]
 
 session_start();
 if($_SESSION['logueado'])
