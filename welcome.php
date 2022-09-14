@@ -16,6 +16,7 @@
 </head>
 <body>
 <?php
+$table="<table class=table boardhead table striped'>
 foreach ($data as $row)
 {
 
@@ -35,7 +36,47 @@ echo $row["product name"]
 <td>
 <?php
 </td>
-echo $row["product galery"]
+echo $row["product gallery"]
+?>
+</td>
+<td>
+<?php
+</td>
+echo $row["product price"]
+?>
+</td>
+<td>
+<?php
+</td>
+echo $row["fecha de alta"]
+?>
+</td>
+<td>
+<?php
+</td>
+echo $row["eliminar"]
+?>
+</td>
+<td>
+<?php
+</td>
+echo $row["actualizar"]
+?>
+</td>
+<td>
+<?php
+</td>
+</tr></head></body>
+echo$table;
+<a href="#"onclick="delete
+<a href="#"onclik="update product(<?php echo $row ['id product'] ?>)"> actualizar producto </a>
+</td>
+</tr>
+<?php 
+}
+echo "</tbody>";
+echo "/table">;
+
 
 session_start();
 if($_SESSION['logueado'])
