@@ -62,19 +62,34 @@
         <li>
         <div class="box">
             <figure>
-              <img src="img/fugazzeta_cleanup.jpg" alt="fugazzeta" />
+              <img src="img/napolitana.jpg" alt="napolitana" />
               <figcaption>
-                <h3>Fugazzeta</h3>
+                <h3>napolitana</h3>
         <div class="box">
             <figure>
-            <img src="img/pizza-4-quesos.jpg" alt="pizza 4 quesos" />
+            <img src="img/fugaza.jpg" alt="fugaza" />
               <figcaption>
-                <h3>Pizza 4 Quesos</h3>
+                <h3>fugaza</h3>
                 <div class="box">
                 <figure></figure>
-                <img src="img/pizza-de-albahaca.jpg" alt="pizza de albahaca" />
+                <img src="img/especial.jpg" alt="especial" />
               <figcaption>
-                <h3>Pizza de Albahaca</h3>
+                <h3>especial</h3>
+                <img src="img/mixta.jpg" alt="mixta" />
+              <figcaption>
+                <h3>mixta</h3>
+                <img src="img/hamburguesa completa.jpg" alt="hamburguesa completa" />
+              <figcaption>
+                <h3>hamburgueza completa</h3>
+                <img src="img/aros de cebolla.jpg" alt="aros de cebolla" />
+              <figcaption>
+                <h3>aros de cebolla</h3>
+                <img src="img/morrones.jpg" alt="morrones" />
+              <figcaption>
+                <h3>morrones</h3>
+                <img src="img/tomate.jpg" alt="tomate" />
+              <figcaption>
+                <h3>tomate</h3>
               <img src="<?php echo $row['image']?>">
               <figcaption>
               <h3><?php echo $row['category_name']." ".$row['product_name']?></h3>
